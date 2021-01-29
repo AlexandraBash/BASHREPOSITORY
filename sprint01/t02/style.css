@@ -1,0 +1,71 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(236, 235, 235);
+}
+tbody td{
+    border: 1px solid white;
+}
+.kolonki {
+    background-color: black; 
+    color: white;
+  
+}
+.soul {
+    background-color: rgb(233, 146, 75);
+    text-align: center;
+}
+.orange{
+    text-align: center;
+    font-style: italic;
+}
+.time{
+    background-color: green;
+    text-align: center;
+}
+.green{
+    text-align: center;
+    font-style: italic;
+}
+.space {
+    background-color: rgb(58, 58, 207);
+    text-align: center;
+}
+.blue{
+    text-align: center;
+    font-style: italic;
+}
+.mind{
+    background-color: rgb(243, 218, 74);
+    text-align: center;
+}
+.yellow{
+    text-align: center;
+    font-style: italic;
+}
+.reality{
+    background-color: rgb(175, 38, 38);
+    text-align: center;
+}
+.red{
+    text-align: center;
+    font-style: italic;
+    }
+.power{
+    background-color: rgb(94, 37, 94);
+    text-align: center;
+}
+.purple{
+    text-align: center;
+    font-style: italic;
+}
+.link{
+    text-align: center;
+}
+.alf{
+    height: 120px;
+  border-radius: 25px;
+  width: 120px;
+  object-fit: cover;
+  padding: 7px;
+  
+}

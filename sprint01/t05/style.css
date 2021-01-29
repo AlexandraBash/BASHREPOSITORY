@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana sans-serif;
+}
+h3{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    line-height: 1;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 15px
+    
+
+}
+
+.blockamerica{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#4568DC, #B06AB3) ;
+    margin-top: 47px;
+    position: relative;
+}
+.blockamerica:nth-child(2){background: linear-gradient(#e52d27, #b31217);}
+.blockamerica:nth-child(3){background: linear-gradient(90deg, #000, #61045F);}
+.blockamerica:nth-child(4){background: linear-gradient(#e52d27,#000);}
+
+.imgsize{
+    height: 182px;
+    position: absolute;
+    bottom: 0px;
+}
+.imgman{
+    height: 182px;
+    position: absolute;
+}
+
+.card{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,17 @@
+@media screen {
+.img{
+float: left;
+padding: 7px 7px 7px 0;}
+} 
+
+@media print { 
+.img{
+    float: none;
+}
+} 
+
+    
+
+
+
+   

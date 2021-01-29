@@ -1,0 +1,35 @@
+div{
+    width: 700px;
+}
+
+.gauntlet{
+    margin: 40px;
+}
+
+.gauntlet:hover ~ div .man:nth-child(2n+1){
+    visibility: hidden;
+}
+
+.gauntlet:hover ~ div .xman:nth-child(2n){
+   visibility: hidden;
+}
+
+.man{
+ width: 100px;
+ height: 110px;
+}
+
+.xman{
+    width: 100px;
+ height: 110px;
+}
+   
+
+
+
+
+
+
+
+
+

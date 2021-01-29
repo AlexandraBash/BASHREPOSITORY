@@ -1,0 +1,29 @@
+
+h1{
+    margin-left: 350px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.super{
+    color: green;
+    width: 750px;
+    padding-left: 10px;
+    height: 2em;
+    float: left;
+}
+.serch{
+    color: green;
+    height: 2em;
+    font-size: auto;
+}
+
+.super:hover{
+    color: red;
+}
+.serch:hover{
+    color: red;
+}
+

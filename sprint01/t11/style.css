@@ -1,0 +1,29 @@
+.allweather{
+    display: flex;
+    margin: 0 -5px;
+    text-align: center;
+    position: fixed;
+}
+.shadow{
+    flex: 1 1 auto;
+    margin: 0 5px;
+    width: 120px;
+    height: 150px;
+   
+}    
+.shadow:hover{
+    box-shadow: 0 0 7px 2px #919191;
+    transition: all 0.3s;
+}
+.topcolor{
+background: rgb(41, 169, 207);
+color: white;
+font-size: 1.5em;
+font-family: "Lato", sans-serif;
+font-weight: 700;
+}
+.temperature{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}

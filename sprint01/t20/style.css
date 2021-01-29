@@ -1,0 +1,24 @@
+
+@keyframes go-left-right{
+from{
+    left: 50px;
+}
+to {
+    left: calc(95% - 50px);
+  }
+  }
+    div{
+    width: 50px;
+    height: 50px;
+    top: 15%;
+    transform: scale(3);
+    border-radius: 25px;
+    background: rgb(20, 209, 52);
+    transition: background-color 2s;
+    animation: go-left-right 5s infinite alternate;
+    position: absolute;
+  }
+
+    div:hover{
+    background-color:  red;
+  }

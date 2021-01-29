@@ -1,0 +1,40 @@
+.match{ 
+  padding: 10%;
+  transform: scaleY(1.1);
+}
+
+.fire{
+  height: 130px;
+  width: 130px;
+  background: linear-gradient(40deg, rgb(247, 198, 0), rgb(255, 0, 0));
+  border-radius: 100% 0% 100% 100%;
+  transform: rotate(315deg);
+  box-shadow: 0 0 10px grey;
+  position: relative;
+  z-index: 1;
+}
+
+.top{
+  margin-top: -38px;
+  margin-left: 44px;
+  width: 40px;
+  height: 35px;
+  border-radius: 60%;
+	background: rgb(255, 255, 255);
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: 3;
+  box-shadow: -25px 0px 25px 5px rgb(255, 255, 255), inset -25px 0px 25px -1px rgb(88, 18, 18);
+}
+
+.stick{ 
+  margin-top: -5px;
+  margin-left: 55px;
+  z-index: 2;
+  position: absolute;
+  border-color: black;
+  width: 20px;
+  height: 200px;
+  box-shadow: 1px 0px 0px 0px rgba(88, 39, 39, 0.486);
+  background: linear-gradient( to right, rgb(78, 53, 39), rgb(224, 166, 127));
+}

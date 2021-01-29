@@ -1,0 +1,19 @@
+.super{
+    color: green;
+    width: 500px;
+    padding-left: 10px;
+    height: 2em;
+    float: left;
+}
+.serch{
+    color: green;
+    height: 2em;
+    font-size: auto;
+    
+}
+.super:hover{
+    color: red;
+}
+.serch:hover{
+    color: red;
+}
