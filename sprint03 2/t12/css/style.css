@@ -1,0 +1,51 @@
+*{
+    cursor: pointer;
+}
+#add{
+    background: rgb(115, 228, 228);
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.archive{
+    background: rgb(220, 217, 217);
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.arch{
+    background: rgb(220, 217, 217);
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: rgb(6, 9, 104);
+}
+#clear{
+    background: rgb(220, 217, 217);
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+#msg{
+    border-color: aqua;
+}
+#topbut{
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+    margin-top: 40px;
+    margin-left: 10px;
+}

@@ -1,0 +1,29 @@
+
+table{
+    border: 2px solid black; 
+   width: 300px;
+   height: 500px;
+   text-align: center;
+   margin: auto;
+   table-layout: fixed;
+}   
+
+tr{
+background-color: rgb(217, 211, 222);
+
+}
+th{
+    background-color: rgb(205, 63, 31);
+    font-weight: normal;
+    height: 30px;
+}
+#notification {
+	position: absolute;
+	right: 3px;
+	top: 20px;
+	background-color: rgb(157, 155, 155);
+	padding: 7px 20px 7px 20px;
+	border-radius: 19px;
+}
+    
+
